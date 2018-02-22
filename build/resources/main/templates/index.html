@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+
+    <script type="text/javascript" th:src="@{/jquery.js}"></script>
+    <script type="text/javascript" th:src="@{/client.js}"></script>
+
+
+</head>
+<body>
+
+<h1>People Finder</h1>
+    <form>
+        <input type="text" id="personSearch" placeholder="Enter a Name"/>
+    </form>
+
+<button onclick="gotoPerson()">Person Page</button>
+<button onclick="gotoEverybody()">See Everyone</button>
+
+</body>
+</html>
